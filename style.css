@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Poppins:wght@400;500;600&display=swap');
+
+:root {
+    --purple: #a522ff;
+    --pink: #f144ff;
+  }
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: "Poppins", serif;
+    background-color: #f4cbff;
+    color: whitesmoke;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.container{
+    background: rgb(2,0,36);
+    background: linear-gradient(332deg, rgba(2,0,36,1) 0%, rgba(165,34,255,1) 0%, rgba(241,68,255,1) 100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    padding: 4rem 3rem;
+    border-radius: 1rem;
+}
+
+/* .title{
+    color: whitesmoke;
+} */
+
+.result{
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.temp_elements{
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+}
+
+.element{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.input_box{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+input{
+    padding: 0.5rem;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    background-color: transparent;
+    border-bottom: 1px solid whitesmoke;
+    font-weight: 100;
+    color: whitesmoke;
+}
+
+input::placeholder{
+    color: whitesmoke;
+}
+
+input:focus{
+    outline:none;
+}
+
+button{
+    background-color: whitesmoke;
+    padding: 0.75rem 1rem;
+    border-radius: 5px;
+    border: none;
+    color: var(--purple);
+    font-weight: 700;
+    transition: 0.3s;
+}
+
+button:hover{
+    cursor: pointer;
+    box-shadow: rgba(247, 245, 245, 0.24) 0px 3px 8px;
+}
+
+.temperature{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
