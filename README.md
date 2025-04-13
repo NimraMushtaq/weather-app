@@ -20,5 +20,6 @@ A simple and clean weather application built using HTML, CSS, and JavaScript. En
 (or your chosen API)
 
 ## 📸 Preview
+- 👉 [Visit Weather App](https://nimramushtaq.github.io/weather-app/)
 
 
